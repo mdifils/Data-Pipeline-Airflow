@@ -112,24 +112,24 @@ Copy redshift endpoint:
 Login: ACCESS_KEY_ID  
 Password: ACCESS_SECRET_KEY
 
-12. Add Redshift credentials to Airflow
+13. Add Redshift credentials to Airflow
 
 ![Redshift credentials](images/redshift_credentials.png)
 
 Host: Check your redshift endpoint  
 Password: Passw0rd
 
-13. We can now run our Airflow-pipeline DAG on Airflow UI
+14. We can now run our Airflow-pipeline DAG on Airflow UI
 
 ![Graph Result](images/dag_success_graph.png)
 
 ![Tree Result](images/dag_success_tree.png)
 
-14. Delete redshift cluster: `./delete_redshift.sh`
-15. Make sure redshift is deleted: `./redshift_status.sh`
+15. Delete redshift cluster: `./delete_redshift.sh`
+16. Make sure redshift is deleted: `./redshift_status.sh`
 
 ![Deleting redshift](images/delete_redshift.png)
 
-16. To stop and delete containers, delete volumes with database data: `docker-compose down --volumes`
+17. To stop and delete containers, delete volumes with database data: `docker-compose down --volumes`
 
 ![Stop Airflow](images/stop_airflow.png)
