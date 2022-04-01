@@ -70,5 +70,22 @@ The `docker-compose.yaml` file has been downloaded from airflow website
 2. Change directory: `cd Data-Pipeline-Airflow`
 3. Setting the right Airflow user: `echo -e "AIRFLOW_UID=$(id -u)" > .env`
 4. Initialize the database for airflow metadata: `docker-compose up airflow-init`
-5. Check containers are running: `docker-compose ps`
-6. check jupyterlab link (last line): `docker-compose logs jlab`
+
+![airflow_init](images/airflow_init.png)
+
+5. Running Airflow: `docker-compose up -d`
+6. Check Airflow containers and wait for healthy status: `docker-compose ps`
+
+![airflow containers](images/airflow_containers.png)
+
+7. Go to your browser and type: `http://localhost:8080`
+
+![Airflow Login](images/login.png)
+
+Login an password are: **airflow**.  
+Make sure that `.sh` files are executable (otherwise use `chmod u+x <file.sh>`)
+
+![List Files](images/list_files.png)
+
+8. Launch redshift cluster: `./launch_redshift.sh`
+9. Check redshift status and wait (around 3 minutes) until it is **available**: `./redshift_status.sh`
