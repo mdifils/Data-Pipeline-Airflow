@@ -108,14 +108,14 @@ Copy redshift endpoint:
 
 ![AWS credentials](images/aws_credentials.png)
 
-Login: ACCESS_KEY_ID
+Login: ACCESS_KEY_ID  
 Password: ACCESS_SECRET_KEY
 
 12. Add Redshift credentials to Airflow
 
 ![Redshift credentials](images/redshift_credentials.png)
 
-Host: Check your redshift endpoint
+Host: Check your redshift endpoint  
 Password: Passw0rd
 
 13. We can now run our Airflow-pipeline DAG on Airflow UI
