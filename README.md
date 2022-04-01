@@ -89,3 +89,31 @@ Make sure that `.sh` files are executable (otherwise use `chmod u+x <file.sh>`)
 
 8. Launch redshift cluster: `./launch_redshift.sh`
 9. Check redshift status and wait (around 3 minutes) until it is **available**: `./redshift_status.sh`
+
+![Redshift status](images/redshift_status.png)
+
+Copy redshift endpoint:
+
+![redshift](images/redshift.png)
+
+10. Check the default security group permissions: `./default_security_group.sh`
+
+![Default security group](images/default_sg.png)
+
+11. Allow Airflow to access redshift cluster: `./add_inbound_rule.sh`
+
+![Add Inbound Rule](images/inbound_rule.png)
+
+12. Add AWS credentials to Airflow
+
+![AWS credentials](images/aws_credentials.png)
+
+12. Add Redshift credentials to Airflow
+
+![Redshift credentials](images/redshift_credentials.png)
+
+13. We can now run our Airflow-pipeline DAG on Airflow UI
+
+![Graph Result](images/dag_success_graph.png)
+
+![Tree Result](images/dag_success_tree.png)
