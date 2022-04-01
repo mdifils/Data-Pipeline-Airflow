@@ -123,3 +123,12 @@ Password: Passw0rd
 ![Graph Result](images/dag_success_graph.png)
 
 ![Tree Result](images/dag_success_tree.png)
+
+14. Delete redshift cluster: `./delete_redshift.sh`
+15. Make sure redshift is deleted: `./redshift_status.sh`
+
+![Deleting redshift](images/delete_redshift.png)
+
+16. To stop and delete containers, delete volumes with database data: `docker-compose down --volumes`
+
+![Stop Airflow](images/stop_airflow.png)
