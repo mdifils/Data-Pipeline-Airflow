@@ -702,3 +702,38 @@
 [2022-04-01 21:32:49,023] {logging_mixin.py:109} INFO - [2022-04-01 21:32:49,023] {dag.py:2398} INFO - Sync 1 DAGs
 [2022-04-01 21:32:49,042] {logging_mixin.py:109} INFO - [2022-04-01 21:32:49,042] {dag.py:2937} INFO - Setting next_dagrun for data_pipeline_v3 to 2022-03-31T22:00:00+00:00
 [2022-04-01 21:32:49,060] {processor.py:171} INFO - Processing /opt/airflow/dags/airflow_pipeline.py took 0.967 seconds
+[2022-04-01 21:33:19,161] {processor.py:163} INFO - Started process (PID=2526) to work on /opt/airflow/dags/airflow_pipeline.py
+[2022-04-01 21:33:19,162] {processor.py:642} INFO - Processing file /opt/airflow/dags/airflow_pipeline.py for tasks to queue
+[2022-04-01 21:33:19,163] {logging_mixin.py:109} INFO - [2022-04-01 21:33:19,163] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_pipeline.py
+[2022-04-01 21:33:19,956] {processor.py:654} INFO - DAG(s) dict_keys(['data_pipeline_v3']) retrieved from /opt/airflow/dags/airflow_pipeline.py
+[2022-04-01 21:33:20,026] {logging_mixin.py:109} INFO - [2022-04-01 21:33:20,026] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-01 21:33:20,046] {logging_mixin.py:109} INFO - [2022-04-01 21:33:20,045] {dag.py:2937} INFO - Setting next_dagrun for data_pipeline_v3 to 2022-03-31T22:00:00+00:00
+[2022-04-01 21:33:20,064] {processor.py:171} INFO - Processing /opt/airflow/dags/airflow_pipeline.py took 0.907 seconds
+[2022-04-01 21:33:50,168] {processor.py:163} INFO - Started process (PID=2551) to work on /opt/airflow/dags/airflow_pipeline.py
+[2022-04-01 21:33:50,175] {processor.py:642} INFO - Processing file /opt/airflow/dags/airflow_pipeline.py for tasks to queue
+[2022-04-01 21:33:50,176] {logging_mixin.py:109} INFO - [2022-04-01 21:33:50,176] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_pipeline.py
+[2022-04-01 21:33:50,933] {processor.py:654} INFO - DAG(s) dict_keys(['data_pipeline_v3']) retrieved from /opt/airflow/dags/airflow_pipeline.py
+[2022-04-01 21:33:51,002] {logging_mixin.py:109} INFO - [2022-04-01 21:33:51,001] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-01 21:33:51,021] {logging_mixin.py:109} INFO - [2022-04-01 21:33:51,021] {dag.py:2937} INFO - Setting next_dagrun for data_pipeline_v3 to 2022-03-31T22:00:00+00:00
+[2022-04-01 21:33:51,039] {processor.py:171} INFO - Processing /opt/airflow/dags/airflow_pipeline.py took 0.876 seconds
+[2022-04-01 21:34:21,120] {processor.py:163} INFO - Started process (PID=2573) to work on /opt/airflow/dags/airflow_pipeline.py
+[2022-04-01 21:34:21,122] {processor.py:642} INFO - Processing file /opt/airflow/dags/airflow_pipeline.py for tasks to queue
+[2022-04-01 21:34:21,122] {logging_mixin.py:109} INFO - [2022-04-01 21:34:21,122] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_pipeline.py
+[2022-04-01 21:34:22,061] {processor.py:654} INFO - DAG(s) dict_keys(['data_pipeline_v3']) retrieved from /opt/airflow/dags/airflow_pipeline.py
+[2022-04-01 21:34:22,135] {logging_mixin.py:109} INFO - [2022-04-01 21:34:22,134] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-01 21:34:22,163] {logging_mixin.py:109} INFO - [2022-04-01 21:34:22,163] {dag.py:2937} INFO - Setting next_dagrun for data_pipeline_v3 to 2022-03-31T22:00:00+00:00
+[2022-04-01 21:34:22,183] {processor.py:171} INFO - Processing /opt/airflow/dags/airflow_pipeline.py took 1.067 seconds
+[2022-04-01 21:34:52,258] {processor.py:163} INFO - Started process (PID=2606) to work on /opt/airflow/dags/airflow_pipeline.py
+[2022-04-01 21:34:52,260] {processor.py:642} INFO - Processing file /opt/airflow/dags/airflow_pipeline.py for tasks to queue
+[2022-04-01 21:34:52,261] {logging_mixin.py:109} INFO - [2022-04-01 21:34:52,260] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_pipeline.py
+[2022-04-01 21:34:53,174] {processor.py:654} INFO - DAG(s) dict_keys(['data_pipeline_v3']) retrieved from /opt/airflow/dags/airflow_pipeline.py
+[2022-04-01 21:34:53,266] {logging_mixin.py:109} INFO - [2022-04-01 21:34:53,266] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-01 21:34:53,285] {logging_mixin.py:109} INFO - [2022-04-01 21:34:53,285] {dag.py:2937} INFO - Setting next_dagrun for data_pipeline_v3 to 2022-03-31T22:00:00+00:00
+[2022-04-01 21:34:53,303] {processor.py:171} INFO - Processing /opt/airflow/dags/airflow_pipeline.py took 1.050 seconds
+[2022-04-01 21:35:23,406] {processor.py:163} INFO - Started process (PID=2630) to work on /opt/airflow/dags/airflow_pipeline.py
+[2022-04-01 21:35:23,407] {processor.py:642} INFO - Processing file /opt/airflow/dags/airflow_pipeline.py for tasks to queue
+[2022-04-01 21:35:23,407] {logging_mixin.py:109} INFO - [2022-04-01 21:35:23,407] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_pipeline.py
+[2022-04-01 21:35:24,212] {processor.py:654} INFO - DAG(s) dict_keys(['data_pipeline_v3']) retrieved from /opt/airflow/dags/airflow_pipeline.py
+[2022-04-01 21:35:24,310] {logging_mixin.py:109} INFO - [2022-04-01 21:35:24,310] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-04-01 21:35:24,335] {logging_mixin.py:109} INFO - [2022-04-01 21:35:24,335] {dag.py:2937} INFO - Setting next_dagrun for data_pipeline_v3 to 2022-03-31T22:00:00+00:00
+[2022-04-01 21:35:24,357] {processor.py:171} INFO - Processing /opt/airflow/dags/airflow_pipeline.py took 0.955 seconds
