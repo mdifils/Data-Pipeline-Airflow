@@ -22,7 +22,7 @@ default_args = {
 }
 
 with DAG(
-    dag_id='data_pipeline_v3',
+    dag_id='data_pipeline_v1',
     default_args=default_args,
     description='Load and transform data in Redshift with Airflow',
     template_searchpath="/opt/airflow/scripts",
