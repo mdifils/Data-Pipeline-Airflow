@@ -68,8 +68,9 @@ The `docker-compose.yaml` file has been downloaded from airflow website
 
 1. Clone this repository: `git clone https://github.com/mdifils/Data-Pipeline-Airflow.git`
 2. Change directory: `cd Data-Pipeline-Airflow`
-3. Setting the right Airflow user: `echo -e "AIRFLOW_UID=$(id -u)" > .env`
-4. Initialize the database for airflow metadata: `docker-compose up airflow-init`
+3. Empty logs folder: `sudo rm -rf ./logs/*`
+4. Setting the right Airflow user: `echo -e "AIRFLOW_UID=$(id -u)" > .env`
+5. Initialize the database for airflow metadata: `docker-compose up airflow-init`
 
 ![airflow_init](images/airflow_init.png)
 
