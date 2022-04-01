@@ -1557,3 +1557,9 @@ File Path                              PID    Runtime      # DAGs    # Errors  L
 -------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
 /opt/airflow/dags/airflow_pipeline.py                           1           0  0.98s           2022-04-01T21:35:24
 ================================================================================
+[2022-04-01 21:35:53,476] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-04-01 21:35:53,477] {manager.py:1069} INFO - Failing jobs without heartbeat after 2022-04-01 21:30:53.476974+00:00
+[2022-04-01 21:36:00,512] {manager.py:663} INFO - Searching for files in /opt/airflow/dags
+[2022-04-01 21:36:00,514] {manager.py:666} INFO - There are 1 files in /opt/airflow/dags
+[2022-04-01 21:36:03,548] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-04-01 21:36:03,548] {manager.py:1069} INFO - Failing jobs without heartbeat after 2022-04-01 21:31:03.548931+00:00
