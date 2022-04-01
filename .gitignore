@@ -2,5 +2,3 @@
 .vscode/
 # python config folder
 __pycache__/
-# logs folder
-logs/
