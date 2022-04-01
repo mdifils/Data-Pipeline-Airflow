@@ -43,3 +43,32 @@ project in case you want more details on building data pipeline.
 |       load_fact.py        | module for custom operator to load data into fact table |
 |     load_dimension.py     | module for custom operator to load data into dim table  |
 |      data_quality.py      |    module for custom operator to check data quality     |
+
+The purpose for this project is to implement the following dag design:
+
+![dag structure](images/dag_structure.png)
+
+# Quickstart
+
+## Requirements
+
+- docker
+- docker-compose
+- AWS account and IAM user with ACCESS_KEY_ID and ACCESS_SECRET_KEY
+- AWS CLI ([installation and configuration](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html))
+
+![AWS CLI configuration](images/aws_config.png)
+
+**Note**: Airflow [version 2.2.4](https://airflow.apache.org/docs/apache-airflow/stable/start/docker.html)
+will be used for this project and will be running using docker. So be aware that
+some modules, APIs, etc ... have been deprecated. For Windows users, I recommend
+working on Windows Subsystem for Linux (WSL).  
+The `docker-compose.yaml` file has been downloaded from airflow website
+(link above) and customized for this project.
+
+1. Clone this repository: `git clone https://github.com/mdifils/Data-Pipeline-Airflow.git`
+2. Change directory: `cd Data-Pipeline-Airflow`
+3. Setting the right Airflow user: `echo -e "AIRFLOW_UID=$(id -u)" > .env`
+4. Initialize the database for airflow metadata: `docker-compose up airflow-init`
+5. Check containers are running: `docker-compose ps`
+6. check jupyterlab link (last line): `docker-compose logs jlab`
